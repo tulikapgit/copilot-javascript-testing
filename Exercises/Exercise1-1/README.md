@@ -1,4 +1,4 @@
-# Exercise 1-1: Starting with unit testing with Javascript through GitHub Copilot
+# Exercise 1: Starting with unit testing with Javascript through GitHub Copilot
 
 This exercise should be the first one demonstrating how to leverage GitHub Copilot to speed up the development process of a Javascript testing frameworks like Jest, and also discover new ways to write tests.
 
@@ -54,3 +54,4 @@ Then, hold the **Ctrl** key and press **Space** key to open up the suggestion pa
 
 ### Step 4: Evaluation through in-file Copilot suggestion feature
 
+Another way to generate unit tests is to use the in-file Copilot suggestion feature. You can always look at the suggestions that GitHub Copilot is providing and select the one that you think is the best. You can always select the suggestion and press **Enter** key to accept the suggestion.
