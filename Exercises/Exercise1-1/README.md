@@ -22,3 +22,35 @@ Of course, this is not the only way to ask GitHub Copilot to write a unit test, 
 `How to start creating unit tests for my sum.js with Mocha?`
 
 ![Unit Test in Mocha](../../images/Exercise1-1/2_AskToWriteUnitTestInMocha.gif)
+
+Just because GitHub Copilot is suggesting something, it is neither a good idea that you can take for granted without a further human review nor it is the best answer. Always look through own judgement and evaluation steps to make sure that the code is correct and meets the requirements.
+
+### Step 2: Creating unit tests without asking GitHub Copilot Chat
+
+But let's say you want to write a unit test without asking GitHub Copilot Chat. You can always write a unit test by yourself. And one way to do is just to start with a test file. Create a new file called `sum.test.js` in the same directory where `sum.js` is located. And write a test like this:
+
+```javascript
+// // Test file for sum.js
+```
+And enter **Tab** key to trigger GitHub Copilot to generate a test for you. Of course, you don't have to stick to the comment like that. Just make sure you write enough context so GitHub Copilot can **guess** what you want to write.
+
+![Write a test file](../../images/Exercise1-1/3_GenerateUnitTestsThroughTabs.gif)
+
+If you keep entering **Tab** key, GitHub Copilot will likely generate different unit test cases based on the pattern. And you can always modify the generated tests to meet your requirements.
+
+### Step 3: Generate unit tests through GitHub Copilot Suggestion panels
+
+Another way to generate unit tests is to use the GitHub Copilot suggestion panels. You can always look at the suggestions that GitHub Copilot is providing and select the one that you think is the best. You can always select the suggestion and press **Enter** key to accept the suggestion.
+
+To start, write a comment like this:
+
+```javascript
+// // Test file for sum.js
+```
+
+Then, hold the **Ctrl** key and press **Space** key to open up the suggestion panel. You can see the suggestions that GitHub Copilot is providing. You can select the one that you think is the best by clicking the **Accept** button.
+
+![Generate unit tests through suggestion panels](../../images/Exercise1-1/4_GenerateTestsThroughCopilotPanel.gif)
+
+### Step 4: Evaluation through in-file Copilot suggestion feature
+
