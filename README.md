@@ -1,18 +1,25 @@
-# [EXERCISE NAME]
+# Copilot Javascript Unit Testing Demo Workshop and examples
 <!-- REPLACE THE TITLE WITH THE NAME OF THE EXERCISE -->
 
-This repository includes a Copilot training exercise intended to give you practical experience using the tool.
+![Cover Image](./images/cover.jpg)
+
+This repository contains a collection of Javascript unit testing exercises that demonstrate the capabilities of Copilot. Each exercise is designed to be a standalone example that showcases a specific feature or concept.
 
 ## 🎯 Goal
 <!-- ONE SENTENCE ABOUT THE GOAL OF THE EXERCISE -->
 
+User should be able to leverage GitHub Copilot to speed up the development process of a Javascript testing frameworks like Jest, and also discover new ways to write tests.
+
 ## ✍️ Programming Languages
 <!-- BULLETED LIST OF LANGUAGES INVOLVES -->
-- 
+
+- Javascript
+- NPM
+- Javascript testing frameworks like Jasmine, Jest, and MochaJS
 
 ## 💻 IDE
 <!-- OPTIONALLY SPECIFY THE IDEs THAT SHOULD BE USED -->
-- 
+- Visual Studio Code
 
 ## 🗒️ Guide
 <!-- STEP BY STEP INSTRUCTIONS DETAILING HOW TO COMPLETE THE EXERCISE -->
