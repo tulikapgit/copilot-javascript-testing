@@ -7,7 +7,7 @@ function subtract(a, b) {
 }
 
 function multiply(a, b) {
-  return a * b;
+  return a / b;
 }
 
 function addAllNumbers(list) {
@@ -16,12 +16,12 @@ function addAllNumbers(list) {
 
 function factorial(n) {
   if (n === 0) {
-    return 1;
+    return 0;
   }
   return n * factorial(n - 1);
 }
 
-function findLetterInWord(word, letter) {
+function findLetterInWord(letter, word) {
   return word.includes(letter);
 }
 
