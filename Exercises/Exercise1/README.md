@@ -23,6 +23,12 @@ Of course, this is not the only way to ask GitHub Copilot to write a unit test, 
 
 ![Unit Test in Mocha](../../images/Exercise1/2_AskToWriteUnitTestInMocha.gif)
 
+This is excellent, but there is an unique functionality built-in with GitHub Copilot that you can leverage to generate unit tests, and that is called **slash** command. You can always use the **slash** command to generate unit tests. For example, you can type `/tests` in the chat and GitHub Copilot will generate a unit test for you.
+
+![Unit Test through slash command](../../images/Exercise1/3_SlashCommandForTest.gif)
+
+What is the difference between this way versus the prior way? The difference is that the slash command is a quick way to generate unit tests without asking a question. But it can also increase the likelihood of generating a unit test that is more accurate, and the context is set to be the unit testing.
+
 Just because GitHub Copilot is suggesting something, it is neither a good idea that you can take for granted without a further human review nor it is the best answer. Always look through own judgement and evaluation steps to make sure that the code is correct and meets the requirements.
 
 ### Step 2: Creating unit tests without asking GitHub Copilot Chat
@@ -34,7 +40,7 @@ But let's say you want to write a unit test without asking GitHub Copilot Chat. 
 ```
 And enter **Tab** key to trigger GitHub Copilot to generate a test for you. Of course, you don't have to stick to the comment like that. Just make sure you write enough context so GitHub Copilot can **guess** what you want to write.
 
-![Write a test file](../../images/Exercise1/3_GenerateUnitTestsThroughTabs.gif)
+![Write a test file](../../images/Exercise1/4_GenerateUnitTestsThroughTabs.gif)
 
 If you keep entering **Tab** key, GitHub Copilot will likely generate different unit test cases based on the pattern. And you can always modify the generated tests to meet your requirements.
 
@@ -50,10 +56,16 @@ To start, write a comment like this:
 
 Then, hold the **Ctrl** key and press **Space** key to open up the suggestion panel. You can see the suggestions that GitHub Copilot is providing. You can select the one that you think is the best by clicking the **Accept** button.
 
-![Generate unit tests through suggestion panels](../../images/Exercise1/4_GenerateTestsThroughCopilotPanel.gif)
+![Generate unit tests through suggestion panels](../../images/Exercise1/5_GenerateTestsThroughCopilotPanel.gif)
 
 ### Step 4: Evaluation through in-file Copilot suggestion feature
 
 Last way to generate unit tests is to use the in-file Copilot suggestion feature. This way does require **Copilot Chat** to be enabled. Open your `sum.js`, highlight the code lines, then right click to find **Copilot** option. From that, select **Generate tests** option.
 
-![Generate unit tests through in-file Copilot suggestion feature](../../images/Exercise1/5_GenerateUnitTestInFile.gif)
+![Generate unit tests through in-file Copilot suggestion feature](../../images/Exercise1/6_GenerateUnitTestInFile.gif)
+
+This is very similar to the one you generated unit tests through **Step 1** earlier through **Slash** command. But this is more context-aware and you can generate unit tests based on the code you have written.
+
+That is it! In the next section, we will focus on a specific framework to actually try out the unit tests.
+
+[> Move to Exercise 2: Trying out unit tests in Javascript with Jest through GitHub Copilot](../Exercise2/README.md)
