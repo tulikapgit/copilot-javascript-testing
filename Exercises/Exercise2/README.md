@@ -17,11 +17,11 @@ npm install --save-dev jest
 
 You can of course ask GitHub **Copilot Chat** to help you install Jest through NPM. Just ask a question like this: `How to start installing Jest in my local directory?`
 
-![Install Jest through NPM](../images/Exercise2/2_AskCopilotForInstalling.jpg)
+![Install Jest through NPM](../../images/Exercise2/2_AskCopilotForInstalling.jpg)
 
 You will have few files and directories created in your local directory after running the command. You can see the `node_modules` directory and `package.json` file created.
 
-![Generated files](../images/Exercise2/3_GeneratedFiles.jpg)
+![Generated files](../../images/Exercise2/3_GeneratedFiles.jpg)
 
 That is it! We are now ready to move into our next step.
 
@@ -29,7 +29,7 @@ That is it! We are now ready to move into our next step.
 
 We are ready to run our sample test cases (which are faulty). But before doing that, we need to modify the `package.json` file to include the test script. Open up the `package.json` file and modify the `scripts`. If you have Copilot enabled, it should automatically add the `scripts` section like this.
 
-![Add test script](../images/Exercise2/3_ModifyPackageJSON.gif)
+![Add test script](../../images/Exercise2/3_ModifyPackageJSON.gif)
 
 Now, we are ready to run the test cases. Open up the terminal and run the following command:
 
@@ -39,7 +39,7 @@ npm run test
 
 You should see an error message like this:
 
-![Run test cases](../images/Exercise2/4_TerminalPart1.jpg)
+![Run test cases](../../images/Exercise2/4_TerminalPart1.jpg)
 
-![Run test cases Part 2](../images/Exercise2/5_TerminalPart2.jpg)
+![Run test cases Part 2](../../images/Exercise2/5_TerminalPart2.jpg)
 
