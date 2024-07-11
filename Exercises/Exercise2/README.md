@@ -17,11 +17,11 @@ npm install --save-dev jest
 
 You can of course ask GitHub **Copilot Chat** to help you install Jest through NPM. Just ask a question like this: `How to start installing Jest in my local directory?`
 
-![Install Jest through NPM](../../images/Exercise2/2_AskCopilotForInstalling.jpg)
+![Install Jest through NPM](../../images/Exercise2/1_AskCopilotForInstalling.jpg)
 
 You will have few files and directories created in your local directory after running the command. You can see the `node_modules` directory and `package.json` file created.
 
-![Generated files](../../images/Exercise2/3_GeneratedFiles.jpg)
+![Generated files](../../images/Exercise2/2_GeneratedFiles.jpg)
 
 That is it! We are now ready to move into our next step.
 
