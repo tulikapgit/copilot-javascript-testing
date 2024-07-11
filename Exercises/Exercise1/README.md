@@ -54,4 +54,6 @@ Then, hold the **Ctrl** key and press **Space** key to open up the suggestion pa
 
 ### Step 4: Evaluation through in-file Copilot suggestion feature
 
-Another way to generate unit tests is to use the in-file Copilot suggestion feature. You can always look at the suggestions that GitHub Copilot is providing and select the one that you think is the best. You can always select the suggestion and press **Enter** key to accept the suggestion.
+Last way to generate unit tests is to use the in-file Copilot suggestion feature. This way does require **Copilot Chat** to be enabled. Open your `sum.js`, highlight the code lines, then right click to find **Copilot** option. From that, select **Generate tests** option.
+
+![Generate unit tests through in-file Copilot suggestion feature](../../images/Exercise1/5_GenerateUnitTestInFile.gif)
