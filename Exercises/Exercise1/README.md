@@ -3,7 +3,7 @@
 This exercise should be the first one demonstrating how to leverage GitHub Copilot to speed up the development process of a Javascript testing frameworks like Jest, and also discover new ways to write tests.
 
 In this directory `Exercise1`, you will find the following files:
-- `sum.js`: A simple Javascript file that contains a function that adds two numbers.
+- [`sum.js`](sum.js): A simple Javascript file that contains a function that adds two numbers.
 
 Open the `sum.js` file through **Visual Studio Code** and follow the instructions to complete the exercise.
 
