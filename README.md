@@ -24,7 +24,7 @@ User should be able to leverage GitHub Copilot to speed up the development proce
 ## 🗒️ Guide
 <!-- STEP BY STEP INSTRUCTIONS DETAILING HOW TO COMPLETE THE EXERCISE -->
 
-- [Exercise 1: Starting with unit testing with Javascript through GitHub Copilot](./Exercises/Exercise1-1/README.md)
+- [Exercise 1: Starting with unit testing with Javascript through GitHub Copilot](./Exercises/Exercise1/README.md)
 - Exercise 2: Working with existing unit tests and then fixing test cases or adding new test cases
 
 ## 🤝 Contributing
